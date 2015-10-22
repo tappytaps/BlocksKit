@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
     ss.ios.dependency 'BlocksKit/MessageUI'
     ss.ios.dependency 'BlocksKit/QuickLook'
     ss.ios.dependency 'BlocksKit/UIKit'
-    ss.tvos.dependency 'BlocksKit/UIKit'
   end
 
   s.subspec 'Core' do |ss|
