@@ -49,7 +49,7 @@ Pod::Spec.new do |s|
   s.subspec 'UIKit' do |ss|
     ss.dependency 'BlocksKit/Core'
     ss.dependency 'BlocksKit/DynamicDelegate'
-    #ss.platform = :ios
+    ss.platform = :ios
     ss.source_files = 'BlocksKit/BlocksKit+UIKit.h', 'BlocksKit/UIKit/*.{h,m}'
   end
 end
